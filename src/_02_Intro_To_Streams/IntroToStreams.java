@@ -39,6 +39,7 @@ import java.util.stream.Stream;
  *                          .filter((word) -> word.length() > 4)    // 2.
  *                          .map((word) -> word.length())           // 3.
  *                          .reduce(0, (acc, next) -> acc + next);  // 4.
+ *                          
  *   1. Create stream from string array
  *   2. Only keep words with more than 4 characters in the stream
  *   3. Create a stream of ints from a stream of strings
